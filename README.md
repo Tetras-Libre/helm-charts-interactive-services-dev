@@ -1,5 +1,7 @@
 #  helm-charts-interactive-services
 
+THIS IS A DEV VERSION DO NOT USE IN PRODUCTION AS IS
+
 Helm charts interactive services
 
 This collection of Helm Charts is tailored for datascientists ! It is primarily designed to work with Onyxia but they can also be used as regular helm charts.
