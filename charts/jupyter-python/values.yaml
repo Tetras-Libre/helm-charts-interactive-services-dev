@@ -201,20 +201,11 @@ resources: {}
   # resources, such as Minikube. If you do want to specify resources, uncomment the following
   # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
   requests:
-    cpu:
-      default: 2000m
-      sliderMin: 2000
-      sliderMax: 15000
-    memory:
-      default: 4Gi
-      sliderMin: 4
-      sliderMax: 30
+    cpu: 2000m
+    memory: 4Gi
   limits:
      cpu: 15000m
      memory: 30Gi
-  # requests:
-  #   cpu: 100m
-  #   memory: 128Mi
 
 persistence:
   enabled: false
