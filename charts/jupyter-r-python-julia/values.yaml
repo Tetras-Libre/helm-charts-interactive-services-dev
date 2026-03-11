@@ -128,7 +128,13 @@ route:
   tls:
     termination: edge
   wildcardPolicy: None
-resources: {}
+resources:
+  requests:
+    cpu: 2000m
+    memory: 4Gi
+  limits:
+    cpu: 15000m
+    memory: 30Gi
 persistence:
   enabled: false
   accessMode: ReadWriteOnce

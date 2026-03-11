@@ -1,6 +1,6 @@
 # jupyter-pytorch
 
-![Version: 2.3.47](https://img.shields.io/badge/Version-2.3.47-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square)
+![Version: 2.3.49](https://img.shields.io/badge/Version-2.3.49-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square)
 
 The JupyterLab IDE with Python and the deep-learning framework PyTorch.
 
@@ -99,7 +99,10 @@ The JupyterLab IDE with Python and the deep-learning framework PyTorch.
 | repository.condaRepository | string | `""` |  |
 | repository.configMapName | string | `""` |  |
 | repository.pipRepository | string | `""` |  |
-| resources | object | `{}` |  |
+| resources.limits.cpu | string | `"15000m"` |  |
+| resources.limits.memory | string | `"30Gi"` |  |
+| resources.requests.cpu | string | `"2000m"` |  |
+| resources.requests.memory | string | `"4Gi"` |  |
 | route.annotations | list | `[]` |  |
 | route.enabled | bool | `false` |  |
 | route.hostname | string | `"chart-example.local"` |  |
