@@ -130,8 +130,14 @@ route:
   wildcardPolicy: None
 resources:
   requests:
-    cpu: 2000m
-    memory: 4Gi
+    cpu:
+      default: 2000m
+      sliderMin: 2000
+      sliderMax: 15000
+    memory:
+      default: 4Gi
+      sliderMin: 4Gi
+      sliderMax: 30Gi
   limits:
     cpu: 15000m
     memory: 30Gi

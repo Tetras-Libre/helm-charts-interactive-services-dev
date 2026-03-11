@@ -101,8 +101,12 @@ The JupyterLab IDE with Python, R, Julia, and a collection of standard data scie
 | repository.pipRepository | string | `""` |  |
 | resources.limits.cpu | string | `"15000m"` |  |
 | resources.limits.memory | string | `"30Gi"` |  |
-| resources.requests.cpu | string | `"2000m"` |  |
-| resources.requests.memory | string | `"4Gi"` |  |
+| resources.requests.cpu.default | string | `"2000m"` |  |
+| resources.requests.cpu.sliderMax | int | `15000` |  |
+| resources.requests.cpu.sliderMin | int | `2000` |  |
+| resources.requests.memory.default | string | `"4Gi"` |  |
+| resources.requests.memory.sliderMax | string | `"30Gi"` |  |
+| resources.requests.memory.sliderMin | string | `"4Gi"` |  |
 | route.annotations | list | `[]` |  |
 | route.enabled | bool | `false` |  |
 | route.hostname | string | `"chart-example.local"` |  |
