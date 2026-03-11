@@ -1,6 +1,6 @@
 # vscode-r-python-julia
 
-![Version: 2.3.29](https://img.shields.io/badge/Version-2.3.29-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square)
+![Version: 2.3.30](https://img.shields.io/badge/Version-2.3.30-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square)
 
 The VSCode IDE with minimal installations of R, Python and Julia.
 
