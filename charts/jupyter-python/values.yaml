@@ -204,7 +204,7 @@ resources: {}
     cpu:
       default: 2000m
       sliderMin: 2000
-      sliderMax: 1500
+      sliderMax: 15000
     memory:
       default: 4Gi
       sliderMin: 4
